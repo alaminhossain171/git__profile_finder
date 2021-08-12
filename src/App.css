@@ -49,3 +49,12 @@ ul li{
 a{
   text-decoration: none;
 }
+.effect:hover{
+background: #0B5ED7;
+border-radius: 10px;
+padding-right: 5px;
+padding-top: 5px;
+padding-left: 0px;
+padding-bottom: 5px;
+transition: 0.3s;
+}

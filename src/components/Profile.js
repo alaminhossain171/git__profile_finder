@@ -25,6 +25,7 @@ const Profile = () => {
           if(userName){}
           setData(profileJson);
           setRepo(repoJson);
+          setUserName('');
         }
       };
 
@@ -35,7 +36,7 @@ const Profile = () => {
 <div className="row">
 <div className="col-12">
 <Image src="img/git.png" height="100"></Image>
-<h3 className="mt-3">Github Profile Search!</h3>
+<h3 className="mt-3">Github Profile Finder!</h3>
 <p className="text-muted">Git Profile finder is a project build with ReactJs, Which uses github API to search Profiles by ther UserName</p>
 </div>
 
@@ -117,7 +118,16 @@ return <div className="my-2" id={allRepo.id}><i className="fab fa-github mx-2"><
 </section>
 
 
+<footer className="bg-secondary text-center p-4">
+<span className="mt-3 text-light">Created by Md. Al Amin 😇.</span>
+<a className="text-light effect" href="https://github.com/alaminhossain171" target="blank">
 
+<i className="fab fa-github mx-2"></i>
+
+See Git Profile</a>
+
+
+</footer>
 
 
 
